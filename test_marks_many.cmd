@@ -1,0 +1,1 @@
+python.exe -m pytest -v -m "smoke and not beta_users" test_marks_many.py

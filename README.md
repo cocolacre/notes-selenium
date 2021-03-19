@@ -12,6 +12,13 @@
 * @pytest.mark.skip
 * @pytest.mark.xfail
 * pytest -rx -v test_fixture10a.py
+  * pytest.mark.xfail(reason="The reason the test should fail is 42")
+  * -"rx" to include reason into test report
 * @pytest.mark.xfail(reason="fixing this bug right now")
 * pytest -rX -v test_fixture10b.py
 * https://docs.pytest.org/en/latest/skipping.html Skip and xfail: dealing with tests that cannot succeed.
+* https://docs.pytest.org/en/latest/reference/reference.html?highlight=xfail#pytest.mark.xfail
+* pytest.ini
+  * [pytest]
+  * markers =
+    * marker1: marker description
