@@ -22,3 +22,7 @@
   * [pytest]
   * markers =
     * marker1: marker description
+* @pytest.mark.parametrize('language', ["ru", "en-gb"])
+  * def test_guest_should_see_login_link(browser, language):
+  * (NOTE THE QUOTES' USAGE)
+* https://docs.pytest.org/en/latest/parametrize.html Parametrizing fixtures and test functions
