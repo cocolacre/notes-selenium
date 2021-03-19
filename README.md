@@ -35,4 +35,10 @@
 * [conftest with browser selection example](https://github.com/cocolacre/notes-selenium/tree/main/3-6_6)
 * parser.addoption('--browser_name', action='store', default="chrome", help="Choose browser: chrome or firefox")
 * pytest -s -v --browser_name=firefox test_parser.py
+* pytest-rerunfailures
+  * "--reruns n" (rerun failed tests via pytest)
+  * **!!! WARNING !!! This module freezes pytest. Investigation needed.**
+* "--tb=line" (to shorten test reports)
+* [PyTest traceback formatting](https://docs.pytest.org/en/latest/usage.html#modifying-python-traceback-printing)
+
 
