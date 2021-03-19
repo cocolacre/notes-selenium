@@ -1,0 +1,11 @@
+1616144728033	geckodriver	INFO	Listening on 127.0.0.1:62510
+1616144731100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\79951\\AppData\\Local\\Temp\\rust_mozprofileWZTfIj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616144734701	Marionette	INFO	Listening on port 62518
+1616144734819	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1615816821, line 2475: unreachable code after return statement
+[Child 13488, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1616144745113	Marionette	INFO	Stopped listening on port 62518
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

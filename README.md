@@ -30,3 +30,8 @@
   * additional conftest.py files in subdirs are applied to tests in those subdirs.
   * multiple conftest.py files may cause conflicts.
 * [Override a fixture on a folder (conftest) level](https://docs.pytest.org/en/latest/fixture.html?highlight=conftest#override-a-fixture-on-a-folder-conftest-level)
+* pytest -s -v --browser_name=firefox test_cmd.py
+* [addoption](https://docs.pytest.org/en/latest/example/simple.html?highlight=addoption)
+* parser.addoption('--browser_name', action='store', default="chrome", help="Choose browser: chrome or firefox")
+* pytest -s -v --browser_name=firefox test_parser.py
+* ADD LINK TO CONFTEST 3-6_6 HERE
