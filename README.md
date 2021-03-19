@@ -26,3 +26,7 @@
   * def test_guest_should_see_login_link(browser, language):
   * (NOTE THE QUOTES' USAGE)
 * https://docs.pytest.org/en/latest/parametrize.html Parametrizing fixtures and test functions
+* conftest.py (to store fixtures; )
+  * additional conftest.py files in subdirs are applied to tests in those subdirs.
+  * multiple conftest.py files may cause conflicts.
+* [Override a fixture on a folder (conftest) level]: https://docs.pytest.org/en/latest/fixture.html?highlight=conftest#override-a-fixture-on-a-folder-conftest-level
