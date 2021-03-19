@@ -1,0 +1,1 @@
+python -m pytest -v -s -m smoke test_fixture8.py
