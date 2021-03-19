@@ -32,6 +32,7 @@
 * [Override a fixture on a folder (conftest) level](https://docs.pytest.org/en/latest/fixture.html?highlight=conftest#override-a-fixture-on-a-folder-conftest-level)
 * pytest -s -v --browser_name=firefox test_cmd.py
 * [addoption](https://docs.pytest.org/en/latest/example/simple.html?highlight=addoption)
+* [conftest with browser selection example](https://github.com/cocolacre/notes-selenium/tree/main/3-6_6)
 * parser.addoption('--browser_name', action='store', default="chrome", help="Choose browser: chrome or firefox")
 * pytest -s -v --browser_name=firefox test_parser.py
-* ADD LINK TO CONFTEST 3-6_6 HERE
+
