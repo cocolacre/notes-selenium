@@ -41,5 +41,13 @@
 * "--tb=line" (to shorten test reports)
 * [PyTest traceback formatting](https://docs.pytest.org/en/latest/usage.html#modifying-python-traceback-printing)
 * [Установка языка в Chrome и Firefox для заголовков запросов](https://stepik.org/lesson/237240/step/8)
-
-
+* [Setting language:](https://github.com/cocolacre/notes-selenium/tree/main/3-6_8)
+  * Chrome:
+    * from selenium.webdriver.chrome.options import Options
+    * options = Options()
+    * options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
+	* browser = webdriver.Chrome(options=options)
+  * Firefox:
+    * fp = webdriver.FirefoxProfile()
+    * fp.set_preference("intl.accept_languages", user_language)
+    * browser = webdriver.Firefox(firefox_profile=fp)
