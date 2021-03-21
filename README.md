@@ -53,4 +53,4 @@
     * browser = webdriver.Firefox(firefox_profile=fp)
 * [Полезные ссылки по PyTest](https://stepik.org/lesson/237258/step/1?unit=209646)
 * [Отдельный репозиторий к 4му модулю "Page Object Model"](https://github.com/cocolacre/selenium-autotesting-stepik-4-task-repo)
-* [TODO: доделать xfail к багованому товару](https://stepik.org/lesson/201964/step/4?unit=176022)
+* [TODO: доделать xfail к багованому товару 4.3-8](https://stepik.org/lesson/201964/step/4?unit=176022)
