@@ -40,5 +40,6 @@
   * **!!! WARNING !!! This module freezes pytest. Investigation needed.**
 * "--tb=line" (to shorten test reports)
 * [PyTest traceback formatting](https://docs.pytest.org/en/latest/usage.html#modifying-python-traceback-printing)
+* [Установка языка в Chrome и Firefox для заголовков запросов](https://stepik.org/lesson/237240/step/8)
 
 
