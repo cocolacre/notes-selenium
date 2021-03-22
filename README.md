@@ -1,6 +1,6 @@
 # notes-selenium
 Код, написанный в ходе прохождения курса "Автоматизация тестирования с помощью Selenium и Python" (https://stepik.org/course/575)
-![stepik conquering](https://media2.giphy.com/media/YQitE4YNQNahy/giphy-downsized-large.gif)
+![stepik conquering](https://media.tenor.com/images/ca4da758cdd8816f0e79f5dd0fe83f6d/tenor.gif)
 * pytest hates dots within file names.
 * useful pytest commands: https://gist.github.com/amatellanes/12136508b816469678c2
 * @pytest.mark.smoke
